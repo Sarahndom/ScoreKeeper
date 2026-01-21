@@ -11,7 +11,30 @@
 
     <script src="./index.js" defer></script>
 
+    <style>
+        @media screen and (width <=48em) {
 
+
+            .card-footer {
+                display: flex;
+
+            }
+
+            #p1Button,
+            #p2Button {
+                padding: 0 1rem;
+                font-size: small;
+            }
+
+            #p1Button,
+            #p2Button,
+            #reset {
+                flex: 1;
+                /* button takes available space */
+                min-width: 0;
+            }
+        }
+    </style>
 
 
 </head>
